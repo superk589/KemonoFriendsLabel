@@ -24,9 +24,7 @@ if using in code, call label.sizeToFit() after setting the text.
 
 ```swift
 let label = KemonoFriendsLabel()
-label.numberOfLines = 0
-label.text = "Multi-lines\nis also supported"
-label.textAlignment = .center
+label.text = "KemonoFriends"
 label.font = UIFont.systemFont(ofSize: 40, weight: 30)
 label.sizeToFit()
 view.addSubview(label)
@@ -34,3 +32,5 @@ label.center = view.center
 ```
 
 if using in storyboard, make sure not adding constraints to limit the size of label
+
+sometimes multi-line label may display text in error

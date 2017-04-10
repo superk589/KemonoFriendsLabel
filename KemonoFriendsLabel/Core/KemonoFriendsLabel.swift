@@ -36,7 +36,9 @@ open class KemonoFriendsLabel: UILabel {
         context.concatenate(transform)
         
         // set the mask image
-        context.clip(to: rect, mask: alphaImage)
+        let maskSize = CGSize.init(width: CGFloat(alphaImage.width) / UIScreen.main.scale, height: CGFloat(alphaImage.height) / UIScreen.main.scale)
+        let maskOrigin = CGPoint.init(x: (rect.width - maskSize.width) / 2, y: (rect.height - maskSize.height) / 2)
+        context.clip(to: CGRect.init(origin: maskOrigin, size: maskSize), mask: alphaImage)
         
         // transform back
         context.concatenate(transform.inverted())
