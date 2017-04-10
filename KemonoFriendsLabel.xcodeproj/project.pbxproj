@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1255CB951E97A7F400E1D391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255CB941E97A7F400E1D391 /* AppDelegate.swift */; };
+		1255CB971E97A7F400E1D391 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255CB961E97A7F400E1D391 /* ViewController.swift */; };
+		1255CB9A1E97A7F400E1D391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1255CB981E97A7F400E1D391 /* Main.storyboard */; };
+		1255CB9C1E97A7F400E1D391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1255CB9B1E97A7F400E1D391 /* Assets.xcassets */; };
+		1255CB9F1E97A7F400E1D391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1255CB9D1E97A7F400E1D391 /* LaunchScreen.storyboard */; };
+		1255CBA81E97A81700E1D391 /* KemonoFriendsLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255CBA71E97A81700E1D391 /* KemonoFriendsLabel.swift */; };
+		1255CBAC1E97E1FC00E1D391 /* KemonoFriendsPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255CBAB1E97E1FC00E1D391 /* KemonoFriendsPath.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1255CB911E97A7F400E1D391 /* KemonoFriendsLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KemonoFriendsLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1255CB941E97A7F400E1D391 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1255CB961E97A7F400E1D391 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1255CB991E97A7F400E1D391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1255CB9B1E97A7F400E1D391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1255CB9E1E97A7F400E1D391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1255CBA01E97A7F400E1D391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1255CBA71E97A81700E1D391 /* KemonoFriendsLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KemonoFriendsLabel.swift; sourceTree = "<group>"; };
+		1255CBAB1E97E1FC00E1D391 /* KemonoFriendsPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KemonoFriendsPath.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1255CB8E1E97A7F400E1D391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1255CB881E97A7F400E1D391 = {
+			isa = PBXGroup;
+			children = (
+				1255CB931E97A7F400E1D391 /* KemonoFriendsLabel */,
+				1255CB921E97A7F400E1D391 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1255CB921E97A7F400E1D391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1255CB911E97A7F400E1D391 /* KemonoFriendsLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1255CB931E97A7F400E1D391 /* KemonoFriendsLabel */ = {
+			isa = PBXGroup;
+			children = (
+				1255CBA61E97A80600E1D391 /* Core */,
+				1255CB941E97A7F400E1D391 /* AppDelegate.swift */,
+				1255CB961E97A7F400E1D391 /* ViewController.swift */,
+				1255CB981E97A7F400E1D391 /* Main.storyboard */,
+				1255CB9B1E97A7F400E1D391 /* Assets.xcassets */,
+				1255CB9D1E97A7F400E1D391 /* LaunchScreen.storyboard */,
+				1255CBA01E97A7F400E1D391 /* Info.plist */,
+			);
+			path = KemonoFriendsLabel;
+			sourceTree = "<group>";
+		};
+		1255CBA61E97A80600E1D391 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1255CBA71E97A81700E1D391 /* KemonoFriendsLabel.swift */,
+				1255CBAB1E97E1FC00E1D391 /* KemonoFriendsPath.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1255CB901E97A7F400E1D391 /* KemonoFriendsLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1255CBA31E97A7F400E1D391 /* Build configuration list for PBXNativeTarget "KemonoFriendsLabel" */;
+			buildPhases = (
+				1255CB8D1E97A7F400E1D391 /* Sources */,
+				1255CB8E1E97A7F400E1D391 /* Frameworks */,
+				1255CB8F1E97A7F400E1D391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KemonoFriendsLabel;
+			productName = KemonoFriendsLabel;
+			productReference = 1255CB911E97A7F400E1D391 /* KemonoFriendsLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1255CB891E97A7F400E1D391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zzk;
+				TargetAttributes = {
+					1255CB901E97A7F400E1D391 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = MXJJEEMF3U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1255CB8C1E97A7F400E1D391 /* Build configuration list for PBXProject "KemonoFriendsLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1255CB881E97A7F400E1D391;
+			productRefGroup = 1255CB921E97A7F400E1D391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1255CB901E97A7F400E1D391 /* KemonoFriendsLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1255CB8F1E97A7F400E1D391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1255CB9F1E97A7F400E1D391 /* LaunchScreen.storyboard in Resources */,
+				1255CB9C1E97A7F400E1D391 /* Assets.xcassets in Resources */,
+				1255CB9A1E97A7F400E1D391 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1255CB8D1E97A7F400E1D391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1255CB971E97A7F400E1D391 /* ViewController.swift in Sources */,
+				1255CBAC1E97E1FC00E1D391 /* KemonoFriendsPath.swift in Sources */,
+				1255CB951E97A7F400E1D391 /* AppDelegate.swift in Sources */,
+				1255CBA81E97A81700E1D391 /* KemonoFriendsLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1255CB981E97A7F400E1D391 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1255CB991E97A7F400E1D391 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1255CB9D1E97A7F400E1D391 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1255CB9E1E97A7F400E1D391 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1255CBA11E97A7F400E1D391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1255CBA21E97A7F400E1D391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1255CBA41E97A7F400E1D391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MXJJEEMF3U;
+				INFOPLIST_FILE = KemonoFriendsLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzk.KemonoFriendsLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1255CBA51E97A7F400E1D391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MXJJEEMF3U;
+				INFOPLIST_FILE = KemonoFriendsLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzk.KemonoFriendsLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1255CB8C1E97A7F400E1D391 /* Build configuration list for PBXProject "KemonoFriendsLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1255CBA11E97A7F400E1D391 /* Debug */,
+				1255CBA21E97A7F400E1D391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1255CBA31E97A7F400E1D391 /* Build configuration list for PBXNativeTarget "KemonoFriendsLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1255CBA41E97A7F400E1D391 /* Debug */,
+				1255CBA51E97A7F400E1D391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1255CB891E97A7F400E1D391 /* Project object */;
+}
