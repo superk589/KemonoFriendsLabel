@@ -10,16 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var centerLabel: KemonoFriendsLabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let label = KemonoFriendsLabel(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 0))
-        label.numberOfLines = 0
-        label.text = "Multi-lines\nis also supported"
-        label.textAlignment = .center
+        let label = KemonoFriendsLabel()
+        label.text = "兽娘动物园"
         label.font = UIFont.systemFont(ofSize: 40, weight: 30)
         label.sizeToFit()
         view.addSubview(label)
+        label.frame.origin.y = centerLabel.frame.minY - 18.5 - label.frame.height
+        label.center.x = view.center.x
         // Do any additional setup after loading the view, typically from a nib.
     }
 

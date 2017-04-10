@@ -47,6 +47,9 @@
                             <constraint firstItem="mE4-vV-VRJ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="yZV-ry-pnk"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="centerLabel" destination="uwM-sB-Uzw" id="7bs-js-JC7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
